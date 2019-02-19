@@ -1,4 +1,4 @@
-import Main from '../views/index.vue'
+import Main from '@/views/index.vue'
 
 export const routers = [
   {
@@ -11,6 +11,6 @@ export const routers = [
     path: '/pagination',
     name: 'pagination',
     title: 'pagination',
-    component: resolve => { require(['../views/pagination/DemoPagination.vue'], resolve); }
+    component: resolve => { require(['@/views/pagination/DemoPagination.vue'], resolve); }
   }
 ]
